@@ -1,0 +1,22 @@
+{
+  "name": "zero-waste-market",
+  "version": "1.0.0",
+  "description": "AI-Powered Surplus Product Marketplace (Guwahati, Assam, India)",
+  "scripts": {
+    "dev:server": "cd server && node src/server.js",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "seed": "cd server && node ../database/seed.js",
+    "test": "cd server && node test/test-all.js"
+  },
+  "keywords": [
+    "zerowaste",
+    "sustainability",
+    "surplus",
+    "marketplace",
+    "gemini",
+    "guwahati"
+  ],
+  "author": "ZeroWaste Market Team",
+  "license": "MIT"
+}
